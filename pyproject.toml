@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "movies-search"
+version = "0.1.0"
+description = ""
+authors = ["jjublanc <johan.jublanc@gmail.com>"]
+readme = "README.md"
+packages = [{include = "movies_search"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+elasticsearch = "^8.11.1"
+pandas = "1.5"
+python-dotenv = "^1.0.0"
+eland = "^8.11.1"
+tqdm = "^4.66.1"
+torch = "^2.1.2"
+transformers = "^4.36.2"
+sentence-transformers = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
